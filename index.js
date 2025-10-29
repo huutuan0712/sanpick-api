@@ -1,5 +1,5 @@
 import { createApp } from "json-server/lib/app.js";
-import db from "./data.json" assert { type: "json" };
+import db from "./data.json" with { type: "json" };
 
 const app = createApp(
     {
