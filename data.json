@@ -1,0 +1,614 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name" : "outdoor"
+    },
+    {
+      "id": 2,
+      "name" : "indoor"
+    }
+  ],
+  "courts": [
+    {
+      "id": 1,
+      "cate_id": 1,
+      "name": "ân Pickleball Pro 1",
+      "code": "PB-PRO-001",
+      "price": 200000,
+      "description": "Sân ngoài trời tiêu chuẩn quốc tế với mặt sân xi măng cao cấp, đèn chiếu sáng LED hiện đại.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80",
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80",
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "outdoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sân Pickleball Pro 2",
+      "code": "PB-PRO-002",
+      "cate_id": 1,
+      "price": 200000,
+      "description": "Sân ngoài trời với không gian thoáng mát, phù hợp cho các buổi tập luyện và thi đấu.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80",
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "outdoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sân Pickleball VIP 1",
+      "code": "PB-VIP-001",
+      "cate_id": 2,
+      "price": 300000,
+      "description": "Sân trong nhà VIP với điều hòa, mặt sân gỗ cao cấp, không gian sang trọng và hiện đại.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80",
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "indoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sân Pickleball VIP 2",
+      "code": "PB-VIP-002",
+      "cate_id": 2,
+      "description": "Sân VIP với đầy đủ tiện nghi, phù hợp cho các giải đấu chuyên nghiệp.",
+      "capacity": 4,
+      "price": 150000,
+      "images": [
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "indoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sân Pickleball Standard 1",
+      "code": "PB-STD-001",
+      "cate_id": 1,
+      "price": 150000,
+      "description": "Sân tiêu chuẩn phù hợp cho người mới bắt đầu và chơi giải trí.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "outdoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sân Pickleball Standard 2",
+      "code": "PB-STD-002",
+      "cate_id": 1,
+      "price": 150000,
+      "description": "Sân standard với giá cả phải chăng, phù hợp cho tập luyện hàng ngày.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "outdoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sân Pickleball Mini 1",
+      "code": "PB-MINI-001",
+      "cate_id": 2,
+      "price": 180000,
+      "description": "Sân mini trong nhà phù hợp cho các nhóm nhỏ và tập riêng.",
+      "capacity": 4,
+      "images": [
+        "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "indoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sân Pickleball Mini 2",
+      "code": "PB-MINI-002",
+      "cate_id": 2,
+      "price": 180000,
+      "capacity": 4,
+      "description": "Sân mini với không gian ấm cúng, lý tưởng cho gia đình và bạn bè.",
+      "images": [
+        "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=800&q=80"
+      ],
+      "category": {
+        "id": 1,
+        "name": "indoor"
+      },
+      "timeslots": [
+        {
+          "id": 1,
+          "time": "05:00 - 06:00",
+          "available": true
+        },
+        {
+          "id": 2,
+          "time": "07:00 - 08:00",
+          "available": true
+        },
+        {
+          "id": 3,
+          "time": "09:00 - 10:00",
+          "available": true
+        },
+        {
+          "id": 4,
+          "time": "11:00 - 12:00",
+          "available": false
+        },
+        {
+          "id": 5,
+          "time": "13:00 - 14:00",
+          "available": true
+        },
+        {
+          "id": 6,
+          "time": "15:00 - 16:00",
+          "available": true
+        },
+        {
+          "id": 7,
+          "time": "17:00 - 18:00",
+          "available": true
+        },
+        {
+          "id": 8,
+          "time": "19:00 - 20:00",
+          "available": false
+        },
+        {
+          "id": 9,
+          "time": "21:00 - 22:00",
+          "available": true
+        },
+        {
+          "id": 10,
+          "time": "23:00 - 24:00",
+          "available": true
+        }
+      ]
+    }
+  ],
+  "timeslots": [
+    {
+      "id": 1,
+      "time": "05:00 - 06:00",
+      "available": true
+    },
+    {
+      "id": 2,
+      "time": "07:00 - 08:00",
+      "available": true
+    },
+    {
+      "id": 3,
+      "time": "09:00 - 10:00",
+      "available": true
+    },
+    {
+      "id": 4,
+      "time": "11:00 - 12:00",
+      "available": false
+    },
+    {
+      "id": 5,
+      "time": "13:00 - 14:00",
+      "available": true
+    },
+    {
+      "id": 6,
+      "time": "15:00 - 16:00",
+      "available": true
+    },
+    {
+      "id": 7,
+      "time": "17:00 - 18:00",
+      "available": true
+    },
+    {
+      "id": 8,
+      "time": "19:00 - 20:00",
+      "available": false
+    },
+    {
+      "id": 9,
+      "time": "21:00 - 22:00",
+      "available": true
+    },
+    {
+      "id": 10,
+      "time": "23:00 - 24:00",
+      "available": true
+    }
+  ]
+}
